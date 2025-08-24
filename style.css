@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto;
+}
+
 .section-1 {
-    background-color: #1F2973;
+    background-color: #1F2937;
     color: #F9FAF8;
 }
 
@@ -8,7 +14,7 @@
 }
 
 .section-5 {
-    background-color: #1F2973;
+    background-color: #1F2937;
 }
 
 /* Section 1 Styling ~ */
@@ -73,7 +79,7 @@ ul {
 }
 
 .square-content {
-    width: 140px;
+    width: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,3 +91,36 @@ ul {
     border: 2px solid #3882F6;
     border-radius: 10px;
 }
+
+.section-2-text {
+    text-align: center;
+    width: 150px;
+}
+
+/* Section 3 Styling ~ */
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.quote {
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 100;
+    width: 800px;
+    margin-bottom: -5px;
+}
+
+.thor {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: end;
+    width: 800px;
+}
+
+/* Section 4 Styling ~ */
