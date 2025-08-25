@@ -2,22 +2,16 @@
 
 body {
     font-family: Roboto;
+    margin: 0;
 }
+
+/* Section 1 Styling ~ */
 
 .section-1 {
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
-.section-3 {
-    background-color: #E5E7EB;
-}
-
-.section-5 {
-    background-color: #1F2937;
-}
-
-/* Section 1 Styling ~ */
 header {
     display: flex;
     justify-content: space-around;
@@ -101,6 +95,7 @@ ul {
 /* Section 3 Styling ~ */
 
 .section-3 {
+    background-color: #E5E7EB;
     color: #1F2937;
     display: flex;
     align-items: center;
@@ -169,4 +164,19 @@ ul {
 .signup-content p:first-child {
     font-size: 22px;
     font-weight: bold;
+}
+
+/* Section 5 Styling ~ */
+
+.section-5 {
+    background-color: #1F2937;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #F9FAF8;
+    margin: 0;
 }
